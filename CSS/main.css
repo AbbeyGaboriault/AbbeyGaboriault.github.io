@@ -1,0 +1,38 @@
+a {
+    color: #eeeeff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+}
+header {
+    background color: #000000;
+    color: #eeeeee;
+}
+
+nav {
+    color: #eeeeee;
+}
+
+h1 {
+    color: #eeeeee;
+    font-family: arial, sans-serif;
+    font-size: 22px;
+}
+
+article {
+    color: #eeeeee;
+    clear: both;
+}
+p {
+    color: #eeeeee;
+}
+footer {
+    color: #eeeeee;
+}
+
+body {
+font-size: 16px;
+background:#327BFF;
+font-family:Arial, Times New Roman, sans-serif
+
