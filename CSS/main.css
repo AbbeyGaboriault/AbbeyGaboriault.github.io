@@ -1,18 +1,23 @@
-body {background-color:'white'}
+body {
+    margin-right: 100px;
+    margin-left:100px;
+    margin-top:25px;
+    margin-bottom:25px;
+    background-color:'white'}
 header {
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-size: 100px;
+    font-size: 75px;
     line-height: 70px;
     text-align: center;
     font-weight: bolder;
     line-height: 1.2;
-    color:#000000
+    color:#000000;
 }
 ul {
     width: 100%;
     height: auto;
     padding: 8px 0px;
-    margin: 0px;
+    margin: 25px;
     font-size: 18px;
     font-family: Arial, Geneva, sans-serif;
     font-weight: normal;
@@ -21,7 +26,7 @@ ul {
     }
 ul li {
     display:inline;
-    padding: 20px;
+    padding: 10px;
 }
 ul a {
     text-decoration: none;
@@ -36,6 +41,11 @@ p {
     font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
     font-size: 18px;
     line-height: 25px;
+    margin: 25px;
+}
+
+ iframe {
+    margin-left: 25px;
 }
 
 dl {
@@ -49,4 +59,42 @@ footer2 {
     float:right;
 }
 
-</body>
+@media screen and (max-width:600px) {
+    
+    header {
+        text-align: center;
+        font-size: 28px;
+        font-weight:bold;
+    }
+    body{
+        padding: 3%;
+}
+    h1, h2 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: normal;
+}
+    p {
+        text-align: center;
+        font-size:16px;
+        font-weight: normal;
+}
+    nav {
+        border: 0;
+        width: 100%;
+}
+    nav ul {
+        list-style-type: none;
+        padding-left:0;
+        text-align: center;
+}
+    nav li {
+        display: inline;
+        margin-right:10px;
+}
+
+    #content {
+        clear: left;
+        margin-left: 0;
+        width: 100%;
+}
